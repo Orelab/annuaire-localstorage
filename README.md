@@ -4,4 +4,4 @@ npm install
 
 # Usage
 
-Simply launch index.html ;)
+Simply put the code in a webserver folder, and visit index.html ;)
