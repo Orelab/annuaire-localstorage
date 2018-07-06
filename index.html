@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
 	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
 </head>
 <body>
 
@@ -20,33 +21,45 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#" 
-						data-toggle="modal" data-target="#ajouterPopup">Nouveau <span class="sr-only">(current)</span></a>
+						data-toggle="modal" data-target="#ajouterPopup">Nouveau</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" id="reinit">Réinitialiser</a>
 				</li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="button">Rechercher</button>
 			</form>
 		</div>
 	</nav>
 
 
+	<div class="container-fluid">
 
-	<table class="table">
-		<thead>
-			<tr>
-				<th>id</th>
-				<th>nom</th>
-				<th>prénom</th>
-				<th>téléphone</th>
-				<th>email</th>
-				<th>&nbsp;</th>
-			</tr>
-		</thead>	
-		<tbody>
-			
-		</tbody>
-	</table>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>nom</th>
+					<th>prénom</th>
+					<th>téléphone</th>
+					<th>email</th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>	
+			<tbody>
+				
+			</tbody>
+		</table>
+
+
+		<div class="alert alert-warning">
+			Aucun contact pour le moment ! Ajoutez un contact d'abord...
+		</div>
+
+	</div>
+
 
 
 
@@ -79,19 +92,16 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-primary">Enregistrer</button>
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
-	<div class="alert alert-warning">
-		Aucun contact pour le moment ! Ajoutez un contact d'abord...
-	</div>
 
-
-
+	<script type="text/javascript" src="events.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 
 

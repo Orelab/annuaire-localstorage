@@ -1,0 +1,17 @@
+[
+  {
+    "id": 99546944621,
+    "prenom": "Marcel",
+    "nom": "Morice",
+    "email": "marcel@morice.fr",
+    "telephone": "0611111111"
+  },
+  {
+    "id": 99546944622,
+    "prenom": "Simon",
+    "nom": "Schtroumpf",
+    "email": "simon@shtroumpf.fr",
+    "telephone": "0622222222"
+  }
+]
+
