@@ -1,0 +1,11 @@
+
+
+table.table input {
+	width: 100%;
+	border: none;
+}
+
+table.table input:hover {
+	width: 100%;
+	border: 1px black solid;
+}
